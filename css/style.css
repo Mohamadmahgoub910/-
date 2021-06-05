@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background: url(../imgs/bckg2.png) ;
+    background-size: cover;
+   }
+.header{
+    background-color: #214151;
+}
+.logo{
+    width: 200px;
+    height: 80px;
+}
+/* #headtext{
+    font-family: 'Amiri', serif;
+    text-align: center;
+    padding: 25px;
+    font-size: xx-large;
+    background-color: #f8dc81;
+
+} */
+.hadith-head{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Amiri', serif;
+}
+.content{
+    font-family: 'Amiri', serif;
+    margin: 10px 0px; 
+    padding: 0px ;
+    /* margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom:100px; 
+    margin-top: 10px; */
+    background-color: #eff7e1;
+}
+.textContent{
+    font-family: 'Amiri', serif;
+    background-color: #f8dc81;
+    padding: 30px;
+    border-radius: 5px;
+}
+.title-home,.hadith-head{
+    text-align: center;
+    background-color: #a2d0c1;
+}
+.list {
+     margin: 10px 0px 20px 0px;
+ } 
+ .list ul{
+     list-style: none;
+ }
+.list li { 
+    display: block;
+    float: right; 
+    width: 31.5%;
+    padding: 5px;
+    margin: 5px 10px;
+    border-radius: 7px; 
+    background-color: #214151; 
+    border: 1px solid #214151; 
+}
+.list li label { 
+    cursor: pointer;
+ }
+ .list li label[for="id"] {
+    display: block; 
+    font-size: 22px; 
+    color: #f8dc81; 
+}  
+.list li label[for="title"] {
+    display: block; 
+    font-size: 18px; 
+    color: #f8dc81;
+}
+.list a{
+    text-decoration: none;
+}
+footer {
+    text-align: center; 
+    font-size: 16px 
+}  
+footer ul {
+ margin: 8px; 
+}  
+footer li { 
+    display: inline-block; 
+    margin: 0px 10px 7px 10px; 
+    font-size: 22px; 
+    color: #f8dc81; 
+}  
+footer li a:hover {
+    text-decoration: none; 
+    color: lightcoral;
+} 
+footer p { 
+    font-size: 22px; 
+    color: #f8dc81;   
+}
+footer { 
+    padding: 0px 15px 0px 15px; 
+} footer li { 
+    display: inline-block; 
+    text-align: right; 
+    margin: 3px; 
+} 
+footer a{
+    text-decoration: none;
+}
+.social_icon { 
+    margin: 10px 0px; 
+    background-color:#a2d0c1; 
+    padding: 5px 0px; 
+    /* border: 1px solid #75a6fb;  */
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 5px; 
+}  
+.social_icon li { 
+    display: inline-block; 
+    width: 10%; 
+    font-size: 30px; 
+    margin: 0px 25px; 
+}  
+.social_icon a i { 
+    color: #214151; 
+} 
+.social_icon a { 
+    display: block; 
+    font-size: 16px; 
+    color: #214151;
+}
+.social_icon a i { 
+    display: block; 
+    font-size: 33px; 
+    text-align: center; 
+    margin: auto; 
+}  
+.social_icon a:hover  { 
+    background-color: #f8dc81;
+    text-decoration: none; 
+}
+.textContent a {
+    text-decoration: none;
+    text-align: center;
+}
+h3{
+    color: #214151;
+}
